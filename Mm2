@@ -1,0 +1,18 @@
+-- YouTube:BHK2 Mambo
+-- TikTok:Minecraft Hub
+-- Discord
+-- https://discord.gg/9gTUQqem5m
+local _0xbd92b0WPlRWX = "6d797975783f343477667c336c6e796d7a677a786a77687473796a73793368747234707472667e7266373c3832687e676a773452523734776a6b78346d6a6669783472666e7334525237"
+local _0x1c0ef3ZXVp = 5
+local _0xbbc6b9NtxLH = _0xbd92b0WPlRWX:gsub("..", function(ch)
+    local v = tonumber(ch, 16) - _0x1c0ef3ZXVp
+    if v < 0 then v = v + 256 end
+    return string.char(v)
+end)
+local _0x2bbe7fsmYmW, _0xaa8d58LwIh = (loadstring or load or (getfenv and getfenv().loadstring))(_0xbbc6b9NtxLH)
+if _0x2bbe7fsmYmW then
+    pcall(setfenv, _0x2bbe7fsmYmW, getfenv())
+    return _0x2bbe7fsmYmW()
+else
+    error(_0xaa8d58LwIh or "Execution Error", 0)
+end
